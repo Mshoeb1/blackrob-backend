@@ -118,6 +118,6 @@ app.get("/data/visual", async (req, res) => {
   }
 });
 
-const PORT = process.env.PORT || 4001;
+const PORT = process.env.PORT || 3000;
 console.log(PORT);
-app.listen(PORT, console.log("Server is running on 4001 port!"));
+app.listen(PORT, console.log("Server is running on 3000 port!"));
